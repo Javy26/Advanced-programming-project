@@ -18,7 +18,7 @@ steps:
     serviceConnectionEndpoint: 'DevOpsPractice'
     testType: 'app'
     monitorOnBuild: true
-    failOnIssues: true
+    failOnIssues: false
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
